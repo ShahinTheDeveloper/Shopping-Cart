@@ -1,0 +1,22 @@
+.cart-section{
+    position: fixed;
+    padding: 20px 30px;
+    background-color: white;
+    width: 500px;
+    height: 100vh;
+    top: 0px;
+    left: auto;
+    z-index: 2;
+    box-shadow: none;
+    right: 0;
+    transition: .3s ease-in-out;
+}
+.cart-section.active{
+    top: 0px;
+    left: auto;
+    right: 0 !important;
+}
+.cart-item-quantity input{
+    width: 40px;
+    text-align: center;
+}
